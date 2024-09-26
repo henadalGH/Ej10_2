@@ -4,12 +4,12 @@
     <string name="btInvitado">Invitado</string>
     <string name="btnSalir">Salir</string>
     <string name="title_activity_login">LoginActivity</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Ingresar</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="welcome">"Bienvenido !"</string>
+    <string name="invalid_username">El nombre del usuario no es valido</string>
+    <string name="invalid_password">La contraseña deve tener almenos 3 caracteres</string>
     <string name="login_failed">"Login failed"</string>
 </resources>
