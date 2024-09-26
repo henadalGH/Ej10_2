@@ -30,6 +30,9 @@
             android:id="@+id/lyUsuarioRegistrado"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="100sp"
+            android:layout_marginRight="100sp"
             android:orientation="horizontal">
 
             <Button
@@ -40,16 +43,45 @@
                 android:text="@string/btnUsuarioRegistrado"
                 android:textSize="18sp"
                 android:textStyle="bold" />
+
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/lyInvitado"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"></LinearLayout>
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginRight="100sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btInvitado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btInvitado"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/lySalir"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"></LinearLayout>
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginRight="100sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btnSalir"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
